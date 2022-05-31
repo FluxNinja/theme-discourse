@@ -3,5 +3,19 @@
   "about_url": null,
   "license_url": null,
   "assets": {},
-  "color_schemes": {}
+  "color_schemes": {
+    "gruvbox_light": {
+      "primary": "3c3836",
+      "secondary": "F9FBFA",
+      "tertiary": "504945",
+      "quaternary": "076678",
+      "header_background": "F9FBFA",
+      "header_primary": "3c3836",
+      "highlight": "bdae93",
+      "danger": "F44336",
+      "success": "8EC4AD",
+      "love": "8f3f71"
+    }
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }

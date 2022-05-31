@@ -1,40 +1,27 @@
-@import 'common/foundation/variables'; // Pulls in Discourse SASS variables
+@import 'variables';
 
-$border-radius: 2px;
-
-.list-controls .nav-pills > li {
-  border-color: $tertiary;
-  color: $tertiary;
-  border-radius: $border-radius;
+// Container
+// *------------------------------------------------*
+#main-outlet {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: $color-cream;
+  box-shadow: 0 8px 60px 0 rgba(103,151,255,.15), 0 12px 90px 0 rgba(103,151,255,.15);
+  border-radius: $radius-20;
 }
 
-.nav-pills > li > a {
-  color: $tertiary;
-}
-
-.user-main .about.collapsed-info .details {
-  background: #222;
-}
-
-.mobile-view .mobile-nav {
-  border: 1px solid $tertiary;
-  color: $tertiary;
-  background: transparent;
-  border-radius: $border-radius;
-}
-
-.mobile-view .mobile-nav .drop.expanded {
-  border-color: $primary-very-low;
-}
-
-#topic-footer-buttons {
-  .select-kit.combo-box .select-kit-header {
-    border: 1px solid $tertiary;
-    border-radius: $border-radius;
-    color: $tertiary;
+// Navigation Bar
+// *------------------------------------------------*
+.nav-pills li a {
+  &.active {
+    color: $color-black;
+  }
+  &:hover {
+    background-color: $tertiary;
+    color: $color-white;
   }
 }
 
-#topic-title h1 a {
-  line-height: 1.2;
+.list-controls .navigation-container {
+  margin: 0.8em 9px 1px;
 }
