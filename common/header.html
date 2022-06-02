@@ -1,20 +1,2 @@
-<script type="text/discourse-plugin" version="0.8">
-api.decorateWidget("home-logo:after", (helper) => {
-  return helper.h(
-    "a.custom-text",
-    { href: "https://aperture-tech.netlify.app/", target: "_blank" },
-    "| Aperture website"
-  );
-});
-api.decorateWidget("header-buttons:after", (helper) => {
-  const showExtraInfo = helper.attrs.minimized;
-  if (!showExtraInfo) {
-    return helper.h(
-      "a.blog-link",
-      { href: "https://aperture-tech-docs.netlify.app/", target: "_blank" },
-      "See the Docs"
-    );
-  }
-});
-</script>
+
 
